@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephanie Sharon's Webpage</title>
+    <style>
+        body {
+            font-family: Tahoma, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        header {
+            background-color: #4CAF50;
+            padding: 1rem;
+            text-align: center;
+            color: white;
+        }
+        nav {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        nav a {
+            margin: 0 1rem;
+            text-decoration: none;
+            color: #4CAF50;
+        }
+        section {
+            padding: 2rem;
+        }
+        footer {
+            background-color: #4CAF50;
+            padding: 1rem;
+            text-align: center;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .section-title {
+            margin-top: 0;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Stephanie Sharon's Webpage</h1>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<div class="container">
+
+    <section id="home">
+        <h2 class="section-title">Home</h2>
+        <p>Welcome to my personal webpage! Here, you can learn more about me, explore the services I offer, view my portfolio, and get in touch.</p>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <p>Hello! I'm Stephanie Sharon, a professional freelancer specializing in children's book formatting and layout design, and TikTok Shopify dropshipping store setup and management. I am passionate about helping clients achieve their creative and business goals.</p>
+    </section>
+
+    <section id="services">
+        <h2 class="section-title">Services</h2>
+        <ul>
+            <li>Children's Book Formatting and Layout Design</li>
+            <li>Picture Book Design</li>
+            <li>Kids' Book Cover Design</li>
+            <li>Kindle Book Formatting</li>
+            <li>TikTok Shopify Dropshipping Store Setup and Management</li>
+        </ul>
+    </section>
+
+    <section id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <p>Check out some of my recent work below:</p>
+        <ul>
+            <li><a href="#">Children's Book Project 1</a></li>
+            <li><a href="#">Children's Book Project 2</a></li>
+            <li><a href="#">TikTok Shopify Store Project 1</a></li>
+            <li><a href="#">TikTok Shopify Store Project 2</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <p>You can reach me via the following methods:</p>
+        <ul>
+            <li>Email: <a href="mailto:stephaniesharon27@gmail.com">stephaniesharon27@gmail.com</a></li>
+            <li>Phone: <a href="tel:+07072869154">07072869154</a></li>
+            <li>Instagram: <a href="https://instagram.com" target="_blank">instagram.com</a></li>
+        </ul>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Stephanie Sharon. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
